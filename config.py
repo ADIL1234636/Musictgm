@@ -14,18 +14,18 @@ API_HASH = getenv("API_HASH", "e89accd57abb8bea5bbbad62b767672e")
 BOT_TOKEN = getenv("BOT_TOKEN", "6610414293:AAHPHsWRm8INrp87t5LTQyq3dr4r0hIOjeo")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pika:pika@cluster0.rf7uy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 820))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002128904787))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "5032309797"))
 
 ## Fill these variables if you're deploying on heroku.
-# Your heroku app name
+# Your heroku app nammongodb+srv://pika:pika@cluster0.rf7uy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0e
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
